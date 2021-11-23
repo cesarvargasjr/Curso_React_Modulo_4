@@ -2,7 +2,7 @@
     display: flex;
     flex-basis: 250px;
 
-    background: linear-gradient(to top, #00b4db, #006c90);
+    background: linear-gradient(to top, #4b6cb7,#182848);
     
     z-index: 1;
     -webkit-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
