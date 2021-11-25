@@ -12,6 +12,7 @@ const UseState = (props) => {
                 title="Hook UseState"
                 subtitle="Estado em componentes funcionais!" />
 
+            {/* >>>>>>>>>>>>> PARTE 1 <<<<<<<<<<<<< */}
             <SectionTitle title="Exercício #01" />
             <div className="center">
                 <span className="text">{count}</span>
@@ -25,6 +26,7 @@ const UseState = (props) => {
                 </div>
             </div>
 
+            {/* >>>>>>>>>>>>> PARTE 2 <<<<<<<<<<<<< */}
             <SectionTitle title="Exercício #02" />
 
             <input type="text" className="input" 

@@ -11,6 +11,8 @@ function calcFatorial(num) {
 }
 
 const UseEffect = (props) => {
+    
+    // >>>>>>>>>>>>> PARTE 1 <<<<<<<<<<<<<
     const [number, setNumber] = useState(1)
     const [fatorial, setFatorial] = useState(1)
 
@@ -24,12 +26,20 @@ const UseEffect = (props) => {
         }
     }, [fatorial])
 
+    // >>>>>>>>>>>>> PARTE 2 <<<<<<<<<<<<<
+    const [status, setStatus] = useState("Impar")
+
+    useEffect(function() {
+        setStatus(number % 2 === 0 ? "Par" : "Impar")
+    }, [number])
+
     return (
         <div className="UseEffect">
             <PageTitle
                 title="Hook UseEffect"
                 subtitle="Permite executar efeitos colaterais em componentes funcionais!" />
 
+            {/* >>>>>>>>>>>>> PARTE 1 <<<<<<<<<<<<< */}
             <SectionTitle title="EXERCÍCIO #01 " />
             
             <div className="center">
@@ -41,9 +51,13 @@ const UseEffect = (props) => {
                     value={number} onChange={e => setNumber(e.target.value)} />
             </div>
 
+            {/* >>>>>>>>>>>>> PARTE 2 <<<<<<<<<<<<< */}
             <SectionTitle title="EXERCÍCIO #02 " />
             <div className="center">
-
+                <div>
+                    <span className="text"> Status </span>
+                    <span className="text red"> {status} </span>
+                </div>
             </div>
         </div>
     )
