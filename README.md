@@ -12,4 +12,4 @@ Neste quarto módulo foi estudado os conceitos de "React Hooks" praticando os se
 - useContext
 - useReducer
 - Custom Hooks
-- Desafios
+- Desafios / Exercícios
