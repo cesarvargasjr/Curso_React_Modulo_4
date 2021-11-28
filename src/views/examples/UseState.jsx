@@ -2,6 +2,11 @@ import React, { useState } from 'react'
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
 
+/*             >>>>>>>>>>>>> useState <<<<<<<<<<<<<
+    Um componente funcional que tem seu estado inicial e através 
+    de um método é possível atualizar esse estado.
+*/
+
 const UseState = (props) => {
     const [count, setCount] = useState(0)
     const [name, setName] = useState("Inicial...")

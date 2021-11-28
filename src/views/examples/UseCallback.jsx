@@ -3,11 +3,10 @@ import { useState } from 'react/cjs/react.development'
 import PageTitle from '../../components/layout/PageTitle'
 import UseCallbackButtons from './UseCallbackButton'
 
-
-//      >>>>>>>>>>>>> useCallback <<<<<<<<<<<<<
-// UTILIZADO PARA CHAMAR VÁRIAS VEZES A MESMA FUNÇÃO, 
-// SEM A NECESSIDADE DE RENDERIZÁ-LA TODA VEZ QUE FOR CHAMADA
-
+/*       >>>>>>>>>>>>> useCallback <<<<<<<<<<<<<
+    UTILIZADO PARA CHAMAR VÁRIAS VEZES A MESMA FUNÇÃO, 
+    SEM A NECESSIDADE DE RENDERIZÁ-LA TODA VEZ QUE FOR CHAMADA 
+ */
 
 const UseCallback = (props) => {
     const [count, setCount] = useState(0)

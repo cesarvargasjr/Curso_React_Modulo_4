@@ -3,6 +3,11 @@ import { useState } from 'react/cjs/react.development'
 import PageTitle from '../../components/layout/PageTitle'
 import SectionTitle from '../../components/layout/SectionTitle'
 
+/*          >>>>>>>>>>>>> useEffect <<<<<<<<<<<<<
+    Conforme a mudança de estado de um componente em específico, 
+    outro componente sofre efeitos colaterais.
+*/
+
 function calcFatorial(num) {
     const n = parseInt(num)
     if (n < 0) return -1
