@@ -2,7 +2,7 @@
 
 ### NOME DO CURSO: React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!
 
-Neste quarto módulo foi estudado os conceitos de "React Hooks" praticando os seguintes conteúdos:
+Neste quarto módulo foi estudado os conceitos de "React Hooks" praticando as seguintes funções:
 
 - useState
 - useEffect
