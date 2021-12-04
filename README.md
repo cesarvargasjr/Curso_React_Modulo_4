@@ -1,4 +1,4 @@
-## MÓDULO 4: Hooks (Módulo em andamento)
+## MÓDULO 4: Hooks
 
 ### NOME DO CURSO: React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!
 
